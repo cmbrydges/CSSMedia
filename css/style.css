@@ -1,0 +1,48 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-size: 16px;
+}
+.title{
+  text-transform: uppercase;
+  font-family: less sans;
+}
+
+.preview{
+  position:relative;
+  padding:0;
+  background-size: cover;
+}
+
+.baku {
+ background-image: url("https://preview.ibb.co/hZnEe6/baku.jpg");
+}
+
+.london {
+  background-image: url("https://image.ibb.co/iCbkmm/london.png");
+}
+
+.madrid{
+  background-image: url("https://image.ibb.co/c3m7z6/madrid.jpg");
+}
+
+.rome {
+  background-image: url("https://preview.ibb.co/naJy6m/rome.jpg");
+}
+@media screen and (min-width:575px){
+.preview{
+  width:50%;
+  height: 400px;
+  margin 0 auto;
+}
+}
+
+  @media screen and (min-width:991px){
+  .preview{
+    width: 25%;
+    margin 0 auto;
+  }
+}
