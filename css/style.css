@@ -43,13 +43,14 @@ h1{
 .preview{
   width:40%;
   height:250px;
-  margin:5px;
+  margin-bottom:3%;
+  margin-left:3%
 }
 }
   @media screen and (min-width:991px){
   .preview{
     width:23%;
     height:300px;
-    margin:5px;
+    margin-left:1%;
   }
 }
