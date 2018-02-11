@@ -5,25 +5,23 @@
 body {
   background-color: #dadada;
 }
+
 h1{
   font-size:20px;
   padding:20px;
 }
-.title{
+
+.container > h1 {
   font-family:sans-serif;
-  text-align:center;
   text-transform:uppercase;
+  text-align:center;
 }
-h1{
-  font-size:20px;
-  padding: 20px;
-}
+
 .preview{
   background-size:cover;
   width:80%;
   height:400px;
-  margin:5px;
-  float:right;
+  float:left;
 }
 
 .baku {
@@ -44,14 +42,14 @@ h1{
 @media screen and (min-width:575px){
 .preview{
   width:40%;
-  height: 250px;
-  margin: 5px;
+  height:250px;
+  margin:5px;
 }
 }
   @media screen and (min-width:991px){
   .preview{
-    width: 23%;
-    height: 300px;
-    margin: 10px;
+    width:23%;
+    height:300px;
+    margin:5px;
   }
 }
